@@ -75,13 +75,13 @@ export const ProjectsData = [
         id: 0,
         head: "Portfolio",
         description: "Created my portfolio using ReactJS, the one you are seeing right now!",
-        src: "#" 
+        src: "https://github.com/Muzammilzia/myPortfolio" 
     },
     {
         id: 1,
         head: "2D-Flappy Bird",
         description: "A 2 Dimensional flappy bird game, created in pygame using python",
-        src: "#" 
+        src: "https://github.com/Muzammilzia/Flappy_Bird" 
     }
 ]
 
