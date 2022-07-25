@@ -3,7 +3,7 @@ import {IoLogoJavascript} from 'react-icons/io'
 import {SiCsharp} from 'react-icons/si'
 import {BsFacebook, BsGithub, BsInstagram, BsLinkedin} from 'react-icons/bs'
 import {BiCodeAlt, BiLibrary, BiGitRepoForked} from 'react-icons/bi'
-import {GrNode, GrReactjs, GrMysql} from 'react-icons/gr'
+import {GrNode, GrReactjs, GrMysql, GrNext} from 'react-icons/gr'
 import {FiDatabase} from 'react-icons/fi'
 import {CgToolbox} from 'react-icons/cg'
 
@@ -38,6 +38,10 @@ export const StackData = [
             {
                 icon: <GrNode />,
                 language: "NodeJS"
+            },
+            {
+                icon: <GrNext />,
+                language: "NextJS"
             }
         ],
         svg: <BiLibrary />
@@ -82,6 +86,12 @@ export const ProjectsData = [
         head: "2D-Flappy Bird",
         description: "A 2 Dimensional flappy bird game, created in pygame using python",
         src: "https://github.com/Muzammilzia/Flappy_Bird" 
+    },
+    {
+        id: 2,
+        head: "MVC Asp.net Web application with mssql",
+        description: "Hotel Management System with login/Signup, and also one can add products",
+        src: "https://github.com/Muzammilzia/HotelManagementSystem"
     }
 ]
 

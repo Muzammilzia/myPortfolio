@@ -10,7 +10,7 @@ export const About = () => {
                     <h1>Inventive Software Engineer From Karachi, Pakistan</h1>
                     <p>Student of Computer Science who Loves to Code, currently in second year of BSCS
                     , working in the tech of Web and Blockchain and learning new things each day!</p>
-                    <a href="https://drive.google.com/uc?id=1Z8JhLRCe1BjN4XxclUBwWp_uj7aW5pHV&export=download">
+                    <a href="https://drive.google.com/uc?id=1buVBuPUZHssffn-GRFPlm2jmWXK-4AnK&export=download">
                         <button>{<FiDownload style={{width: "20px"}}/>}Download CV</button>
                     </a>
                 </div>
