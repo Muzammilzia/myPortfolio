@@ -1,6 +1,6 @@
 import {FaPython} from 'react-icons/fa';
 import {IoLogoJavascript} from 'react-icons/io'
-import {SiCsharp} from 'react-icons/si'
+import {SiCsharp, SiMongodb, SiTypescript} from 'react-icons/si'
 import {BsFacebook, BsGithub, BsInstagram, BsLinkedin} from 'react-icons/bs'
 import {BiCodeAlt, BiLibrary, BiGitRepoForked} from 'react-icons/bi'
 import {GrNode, GrReactjs, GrMysql, GrNext} from 'react-icons/gr'
@@ -15,6 +15,10 @@ export const StackData = [
             {
                 icon: <IoLogoJavascript />,
                 language: "JavaScript"
+            },
+            {
+                icon: <SiTypescript />,
+                language: "TypeScript"
             },
             {
                 icon: <FaPython />,
@@ -52,7 +56,11 @@ export const StackData = [
         items: [
             {
                 icon: <GrMysql />,
-                language: "MySQL"
+                language: "MySQL/Prisma"
+            },
+            {
+                icon: <SiMongodb />,
+                language: "MongoDB/Mongoose"
             },
         ],
         svg: <FiDatabase />

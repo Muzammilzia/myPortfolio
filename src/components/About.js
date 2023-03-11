@@ -8,8 +8,14 @@ export const About = () => {
                 <div className="Aboutcontainer">
                     <div style={{backgroundColor: "#ececec", display:"inline", margin: "auto", width: "77px"}}>About Me</div>
                     <h1>Inventive Software Engineer From Karachi, Pakistan</h1>
-                    <p>Student of Computer Science who Loves to Code, currently in second year of BSCS
-                    , working in the tech of Web and Blockchain and learning new things each day!</p>
+                    <p>A Software Developer with high aims and polished coding skills.
+                        <br/>
+                        I have expertise in front-end development with React and have some experience in Express | Node | MongoDB backend development. Have worked on different freelance projects as well as University projects. Also, have experience in JavaScript development, and can work with different JS libraries. 
+                        Learning NextJS next!
+                        <br/>
+                        Also, have some knowledge of python, C# and Kotlin
+                        <br/>
+                        Halfway through my BS in Computer Science from UBIT, Karachi University. Two years till graduation!</p>
                     <a href="https://drive.google.com/uc?id=1buVBuPUZHssffn-GRFPlm2jmWXK-4AnK&export=download">
                         <button>{<FiDownload style={{width: "20px"}}/>}Download CV</button>
                     </a>
